@@ -6,3 +6,17 @@ body{
 main{
   flex-grow: 1;
 }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.btnLi{
+ margin-left: 100px;
+}
