@@ -1,0 +1,1 @@
+const contenedorLista = document.getElementById('contenedorLista');
