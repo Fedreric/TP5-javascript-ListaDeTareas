@@ -19,7 +19,7 @@ function mostrarLista(){
     listaDeItems.forEach(function (item,index) {
         const li = document.createElement('li');
         li.textContent = item;
-        lista.appendChild(li).innerHTML += `<button class="btn btn-outline-danger btnLi" onclick="eliminar(${index})"><i class="bi bi-trash-fill"></i></button>`;
+        lista.appendChild(li).innerHTML += `<button class="btn btn-outline-danger" onclick="eliminar(${index})"><i class="bi bi-trash-fill"></i></button>`;
     });
 }
 
